@@ -1,27 +1,23 @@
 _id: req_1c6a611233684048af85d43a80001b67
 type: Request
 parentId: fld_245bab1dcc844ad9b6be6ef12f353916
-modified: 1658847625077
+modified: 1664289121553
 created: 1656958113184
-url: "{{ _.domain }}/accounts/abc/transactions"
+url: "{{ _.domain }}/accounts/v2/accounts/abc/transactions"
 name: findTransactionsByAccountId
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_a71311cc424f43c19f8773148edb7de1
-    name: x-domain
+  - name: x-domain
     value: banco1.com.br
-    description: ""
-  - id: pair_26d30cb12b494097b84915afbe9edb74
-    name: cpf
+  - name: cpf
     value: "123"
-    description: ""
-  - id: pair_cecf4dbef74247108a07c88bb607440f
-    name: resourceIds
+  - name: resourceIds
     value: abc,ea
-    description: ""
+  - name: authorization
+    value: bla
 authentication: {}
 metaSortKey: -1656609648410
 isPrivate: false

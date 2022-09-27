@@ -1,10 +1,10 @@
-_id: req_66e914c4bc6644959c6886b7cd35f094
+_id: req_49b9652e82df49a78cc7253ccfcb48e0
 type: Request
-parentId: fld_245bab1dcc844ad9b6be6ef12f353916
-modified: 1664289117902
-created: 1656958793780
-url: "{{ _.domain }}/accounts/v2/accounts/abc/transactions-current"
-name: findTransactionsCurrentByAccountId
+parentId: fld_feed8c799d9b4b5eba1b0fd604c30835
+modified: 1664289504364
+created: 1664289271249
+url: "{{ _.domain }}/credit-cards-accounts/v2/accounts/abc/transactions-current"
+name: findTransactionsCurrentByCreditCardAccountId
 description: ""
 method: GET
 body: {}
@@ -15,11 +15,11 @@ headers:
   - name: cpf
     value: "123"
   - name: resourceIds
-    value: abc
+    value: ab,cd,abc,efg,bla
   - name: authorization
     value: bla
 authentication: {}
-metaSortKey: -1656609648360
+metaSortKey: -1664289177749
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

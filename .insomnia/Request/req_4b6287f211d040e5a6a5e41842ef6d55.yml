@@ -1,27 +1,23 @@
 _id: req_4b6287f211d040e5a6a5e41842ef6d55
 type: Request
 parentId: fld_245bab1dcc844ad9b6be6ef12f353916
-modified: 1658847622078
+modified: 1664289124436
 created: 1656957630243
-url: "{{ _.domain }}/accounts/abc/balances"
+url: "{{ _.domain }}/accounts/v2/accounts/abc/balances"
 name: findBalancesByAccountId
 description: ""
 method: GET
 body: {}
 parameters: []
 headers:
-  - id: pair_a71311cc424f43c19f8773148edb7de1
-    name: x-domain
+  - name: x-domain
     value: banco1.com.br
-    description: ""
-  - id: pair_26d30cb12b494097b84915afbe9edb74
-    name: cpf
+  - name: cpf
     value: "123"
-    description: ""
-  - id: pair_cecf4dbef74247108a07c88bb607440f
-    name: resourceIds
+  - name: resourceIds
     value: abc
-    description: ""
+  - name: authorization
+    value: bla
 authentication: {}
 metaSortKey: -1656609648460
 isPrivate: false
