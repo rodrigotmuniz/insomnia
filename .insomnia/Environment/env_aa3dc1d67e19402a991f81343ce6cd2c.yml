@@ -1,0 +1,14 @@
+_id: env_aa3dc1d67e19402a991f81343ce6cd2c
+type: Environment
+parentId: env_664f0867bd3a725a7faaab69180bc0426316a792
+modified: 1664287756659
+created: 1658846154532
+name: homolog
+data:
+  domain: ",,,"
+dataPropertyOrder:
+  "&":
+    - domain
+color: "#e8f43e"
+isPrivate: false
+metaSortKey: 1656778850121

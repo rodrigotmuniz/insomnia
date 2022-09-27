@@ -1,0 +1,30 @@
+_id: req_ced8b8a9d16b4dff81b4e40b17043ee7
+type: Request
+parentId: fld_e2c30ca6175445a4aaf417e531d5b0fa
+modified: 1658847715725
+created: 1657227158724
+url: "{{ _.domain }}/auth/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password": "reigan",
+    	"cpf": 12345678910
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dc092b0d35224fb8a2476dd0af21260b
+authentication: {}
+metaSortKey: -1657167419874.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,33 @@
+_id: req_eb52f8ec4b3b41438ebf3c5c56b0b0b5
+type: Request
+parentId: fld_245bab1dcc844ad9b6be6ef12f353916
+modified: 1658847635260
+created: 1656958842086
+url: "{{ _.domain }}/accounts/abc/overdraft-limits"
+name: findOverdraftLimitsByAccountId
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a71311cc424f43c19f8773148edb7de1
+    name: x-domain
+    value: banco1.com.br
+    description: ""
+  - id: pair_26d30cb12b494097b84915afbe9edb74
+    name: cpf
+    value: "123"
+    description: ""
+  - id: pair_cecf4dbef74247108a07c88bb607440f
+    name: resourceIds
+    value: 123,234,5435,abc
+    description: ""
+authentication: {}
+metaSortKey: -1656609648310
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

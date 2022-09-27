@@ -1,0 +1,33 @@
+_id: req_bf9a52c313e74be8841c2e532ebcdad4
+type: Request
+parentId: fld_245bab1dcc844ad9b6be6ef12f353916
+modified: 1664287739523
+created: 1656609648560
+url: "{{ _.domain }}/accounts"
+name: findAccounts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a71311cc424f43c19f8773148edb7de1
+    name: x-domain
+    value: bancodomeujeito.com.br
+    description: ""
+  - id: pair_26d30cb12b494097b84915afbe9edb74
+    name: cpf
+    value: "12345678910"
+    description: ""
+  - id: pair_cecf4dbef74247108a07c88bb607440f
+    name: resourceIds
+    value: ab,cd,abc,efg,bla
+    description: ""
+authentication: {}
+metaSortKey: -1656609648560
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
