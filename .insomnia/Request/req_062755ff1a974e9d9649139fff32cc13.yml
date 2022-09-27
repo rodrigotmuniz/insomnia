@@ -1,10 +1,10 @@
-_id: req_49b9652e82df49a78cc7253ccfcb48e0
+_id: req_062755ff1a974e9d9649139fff32cc13
 type: Request
-parentId: fld_feed8c799d9b4b5eba1b0fd604c30835
-modified: 1664289562469
-created: 1664289271249
-url: "{{ _.domain }}/credit-cards-accounts/v2/accounts/abc/transactions-current"
-name: findTransactionsCurrentByCreditCardAccountId
+parentId: fld_646e9da146c945c283722eb41d417bd4
+modified: 1664289892479
+created: 1664289884704
+url: "{{ _.domain }}/customers/v2/personal/financial-relations"
+name: findPersonalFinancialRelations
 description: ""
 method: GET
 body: {}
@@ -19,7 +19,7 @@ headers:
   - name: authorization
     value: bla
 authentication: {}
-metaSortKey: -1664289177749
+metaSortKey: -1664289774555.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

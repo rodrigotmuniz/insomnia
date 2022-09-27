@@ -1,10 +1,10 @@
-_id: req_49b9652e82df49a78cc7253ccfcb48e0
+_id: req_0bb0027749174979bfdee906eb13584a
 type: Request
-parentId: fld_feed8c799d9b4b5eba1b0fd604c30835
-modified: 1664289562469
-created: 1664289271249
-url: "{{ _.domain }}/credit-cards-accounts/v2/accounts/abc/transactions-current"
-name: findTransactionsCurrentByCreditCardAccountId
+parentId: fld_d1df22a7c37040aa95758072f851ccad
+modified: 1664290337828
+created: 1664290331432
+url: "{{ _.domain }}/loans/v2/contracts/abc/payments"
+name: findPaymentsByContractId
 description: ""
 method: GET
 body: {}
@@ -19,7 +19,7 @@ headers:
   - name: authorization
     value: bla
 authentication: {}
-metaSortKey: -1664289177749
+metaSortKey: -1664289803562.3125
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
