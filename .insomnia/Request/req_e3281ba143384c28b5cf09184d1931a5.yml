@@ -1,10 +1,10 @@
-_id: req_7c7c3fb3bed544caa16b1fa5f5755f9e
+_id: req_e3281ba143384c28b5cf09184d1931a5
 type: Request
-parentId: fld_d1df22a7c37040aa95758072f851ccad
-modified: 1664291727040
-created: 1664290238102
-url: "{{ _.domain }}/loans/v2/contracts"
-name: findContracts
+parentId: fld_a94825e000fe4c4ea176ed8476f4303f
+modified: 1664293712728
+created: 1664293630688
+url: "{{ _.domain }}/unarranged-accounts-overdraft/v2/contracts/abc"
+name: findByContractId
 description: ""
 method: GET
 body: {}
@@ -19,7 +19,7 @@ headers:
   - name: authorization
     value: bla
 authentication: {}
-metaSortKey: -1664290238102
+metaSortKey: -1664290006347.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

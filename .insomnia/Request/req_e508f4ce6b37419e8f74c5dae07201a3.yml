@@ -1,9 +1,9 @@
-_id: req_7c7c3fb3bed544caa16b1fa5f5755f9e
+_id: req_e508f4ce6b37419e8f74c5dae07201a3
 type: Request
-parentId: fld_d1df22a7c37040aa95758072f851ccad
-modified: 1664291727040
-created: 1664290238102
-url: "{{ _.domain }}/loans/v2/contracts"
+parentId: fld_2e692f02e4d04e23860df3b998243935
+modified: 1664293874236
+created: 1664293866636
+url: "{{ _.domain }}/invoice-financings/v2/contracts"
 name: findContracts
 description: ""
 method: GET

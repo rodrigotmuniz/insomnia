@@ -1,9 +1,9 @@
-_id: req_0bb0027749174979bfdee906eb13584a
+_id: req_7578388d459f4da99ae00e02b0d477d5
 type: Request
-parentId: fld_d1df22a7c37040aa95758072f851ccad
-modified: 1664292957098
-created: 1664290331432
-url: "{{ _.domain }}/loans/v2/contracts/def/payments"
+parentId: fld_2e692f02e4d04e23860df3b998243935
+modified: 1664293887082
+created: 1664293866664
+url: "{{ _.domain }}/invoice-financings/v2/contracts/def/payments"
 name: findPaymentsByContractId
 description: ""
 method: GET

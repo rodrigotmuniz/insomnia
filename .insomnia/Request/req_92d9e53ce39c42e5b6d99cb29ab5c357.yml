@@ -1,19 +1,19 @@
-_id: req_0bb0027749174979bfdee906eb13584a
+_id: req_92d9e53ce39c42e5b6d99cb29ab5c357
 type: Request
-parentId: fld_d1df22a7c37040aa95758072f851ccad
-modified: 1664292957098
-created: 1664290331432
-url: "{{ _.domain }}/loans/v2/contracts/def/payments"
+parentId: fld_2dea9cf4f9c64fca9867c60b5227cdbb
+modified: 1664292566984
+created: 1664291391225
+url: "{{ _.domain }}/financings/v2/contracts/abc/payments"
 name: findPaymentsByContractId
 description: ""
 method: GET
 body: {}
 parameters:
-  - id: pair_260564dea4094287bf3d18c9571d89ae
+  - id: pair_3a71dfee06864406a927c0bf3313178b
     name: page
     value: "1"
     description: ""
-  - id: pair_f8a55d0ad00b4640aa3135b9d140f266
+  - id: pair_e14ca315ce004010a85372aa79f43a16
     name: page-size
     value: "2"
     description: ""

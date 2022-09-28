@@ -1,9 +1,9 @@
-_id: req_0bb0027749174979bfdee906eb13584a
+_id: req_41d0c1b31e2a410cb1cf2c6ec998388a
 type: Request
-parentId: fld_d1df22a7c37040aa95758072f851ccad
-modified: 1664292957098
-created: 1664290331432
-url: "{{ _.domain }}/loans/v2/contracts/def/payments"
+parentId: fld_a94825e000fe4c4ea176ed8476f4303f
+modified: 1664293728690
+created: 1664293630699
+url: "{{ _.domain }}/unarranged-accounts-overdraft/v2/contracts/def/payments"
 name: findPaymentsByContractId
 description: ""
 method: GET

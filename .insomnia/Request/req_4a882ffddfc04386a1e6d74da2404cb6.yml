@@ -1,10 +1,10 @@
-_id: req_7c7c3fb3bed544caa16b1fa5f5755f9e
+_id: req_4a882ffddfc04386a1e6d74da2404cb6
 type: Request
-parentId: fld_d1df22a7c37040aa95758072f851ccad
-modified: 1664291727040
-created: 1664290238102
-url: "{{ _.domain }}/loans/v2/contracts"
-name: findContracts
+parentId: fld_2dea9cf4f9c64fca9867c60b5227cdbb
+modified: 1664291419040
+created: 1664291391221
+url: "{{ _.domain }}/financings/v2/contracts/abc/scheduled-instalments"
+name: findScheduledInstalmentsByContractId
 description: ""
 method: GET
 body: {}
@@ -19,7 +19,7 @@ headers:
   - name: authorization
     value: bla
 authentication: {}
-metaSortKey: -1664290238102
+metaSortKey: -1664289832531.625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

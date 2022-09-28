@@ -1,9 +1,9 @@
-_id: req_7c7c3fb3bed544caa16b1fa5f5755f9e
+_id: req_d7e85bd4504143d7abc63b93004c24df
 type: Request
-parentId: fld_d1df22a7c37040aa95758072f851ccad
-modified: 1664291727040
-created: 1664290238102
-url: "{{ _.domain }}/loans/v2/contracts"
+parentId: fld_2dea9cf4f9c64fca9867c60b5227cdbb
+modified: 1664291729972
+created: 1664291391208
+url: "{{ _.domain }}/financings/v2/contracts"
 name: findContracts
 description: ""
 method: GET
@@ -15,7 +15,7 @@ headers:
   - name: cpf
     value: "123"
   - name: resourceIds
-    value: ab,cd,abc,efg,bla
+    value: ab,cd,abc,efg,bla,def
   - name: authorization
     value: bla
 authentication: {}
